@@ -1,0 +1,15 @@
+@import './_cvladebi';
+@import './_reset';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $mtavariFeri;
+    font-size: 1em;
+}
+
+@import './block/_header';
+@import './block/_siteTitle';
+@import './block/menu';

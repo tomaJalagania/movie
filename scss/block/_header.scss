@@ -1,0 +1,51 @@
+.header {
+    background-color: $menuFooterFeri;
+
+    .container {
+
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 0;
+
+        .headContaqt {
+            display: flex;
+            align-items: center;
+
+            .headerContaqt-text {
+                color: $infoText;
+                font-size: 1em;
+            }
+        }
+
+        .search {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .search-field {
+                background-color: $placeHosderFeri;
+                border: none;
+                padding: 10px;
+                border-radius: 8px;
+                color: $placeHolder;
+                margin-right: 10px;
+            }
+
+            .search-button {
+                padding: 10px;
+                background-color: $placeHosderFeri;
+                border: none;
+                border-radius: 8px;
+                text-transform: uppercase;
+                color: $searchAndHoverFeri;
+            }
+        }
+
+
+    }
+}
+
+.container {
+    max-width: $saitissigane;
+    margin: 0 auto;
+}

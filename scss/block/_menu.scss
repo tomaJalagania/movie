@@ -1,0 +1,21 @@
+.menuBar {
+    background-color: $menuFooterFeri;
+    border-top: 1px solid $menuBorderFeri;
+    border-bottom: 1px solid $menuBorderFeri;
+
+    .menu {
+        padding: 25px 0;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+
+        .menuLink {
+            color: $qudisTexti;
+            text-decoration: none;
+
+            &:hover {
+                color: $searchAndHoverFeri;
+            }
+        }
+    }
+}
