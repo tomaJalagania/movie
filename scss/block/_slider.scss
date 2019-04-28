@@ -1,0 +1,44 @@
+.slider {
+    border-top: 1px solid $menuBorderFeri;
+    border-bottom: 1px solid $menuBorderFeri;
+    margin-top: $sliderMarginTop;
+   
+    height: $liderHeight;
+    position: relative;
+  
+    .slider_wrapper {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        bottom: 15px;
+        .slider_item {
+            width: $sliderItemWidth;
+            height: $sliderItemHeight;
+            img {
+                width: 100%;
+                height:100%;
+            }
+            .slider_caption {
+                background: $sliderItemCatpionColor;
+                top: 0;
+                left: 0;
+                position: absolute;
+                top: 65.7%;
+                left:2%;
+                width: 62.8%;
+                padding: 2%;
+                color: #959595;
+            }
+            .slider_header {
+                font-size: 1.2em;
+            }
+            .slider_desc {
+                margin-top: 4%;
+                line-height: 1.2em;
+            }
+        }
+    }
+   
+}
