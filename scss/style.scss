@@ -1,4 +1,5 @@
 @import './_cvladebi';
+@import './fonts';
 @import './_reset';
 
 * {
@@ -7,7 +8,7 @@
 
 body {
     background-color: $mtavariFeri;
-    font-size: 1em;
+    font-size: 2vh;
 }
 
 @import './block/_header';

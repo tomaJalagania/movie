@@ -1,3 +1,7 @@
+@font-face {
+  src: url("../fonts/bpg_mrgvlovani_caps_2010.ttf");
+  font-family: "BPG Mrgvlovani Caps 2010"; }
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
    License: none (public domain)
@@ -325,7 +329,7 @@ textarea {
 
 body {
   background-color: black;
-  font-size: 1em; }
+  font-size: 2vh; }
 
 .header {
   background-color: #232323; }
@@ -373,7 +377,7 @@ body {
         color: #33d7ff; }
 
 .container {
-  max-width: 96%;
+  max-width: 96vw;
   margin: 0 auto; }
 
 .siteTitle {
@@ -381,7 +385,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 96%;
+  max-width: 96vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -409,7 +413,7 @@ body {
   border-top: 1px solid #3f3f3f;
   border-bottom: 1px solid #3f3f3f; }
   .menuBar .menu {
-    padding: 25px 0;
+    padding: 3vh 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -418,6 +422,7 @@ body {
     width: 100%; }
     .menuBar .menu .menuLink {
       color: white;
-      text-decoration: none; }
+      text-decoration: none;
+      font-family: "BPG Mrgvlovani Caps 2010"; }
       .menuBar .menu .menuLink:hover {
         color: #33d7ff; }
