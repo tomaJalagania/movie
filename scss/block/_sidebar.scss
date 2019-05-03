@@ -1,0 +1,28 @@
+.sidebar {
+   text-align: center;
+   
+   .sidebar-header {
+        font-family: $menuFonts;
+        margin-bottom: 1.5em;
+        color: $sliderCaptionColor;
+   }
+   .sidebar-wraper {
+        width: 100%;
+        padding: 0 10px;
+    .sidebar-items {
+        display: block;
+        margin-bottom: 0.7em;
+        
+        padding:0.6em;
+
+        
+        .sidebar-link {
+            color: $menuBorderFeri;
+            font-size: .8em;
+            line-height: 1em;
+            font-family: $menuFonts;
+            text-decoration: none;
+        }
+    }
+   }
+}

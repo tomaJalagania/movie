@@ -21,7 +21,7 @@
                 height:100%;
             }
             .slider_caption {
-                background: $sliderItemCatpionColor;
+                background: $sliderItemCatpionBgColor;
                 top: 0;
                 left: 0;
                 position: absolute;
@@ -45,7 +45,8 @@
             .slide_btn {
                 width: 5.2%;
                 height: 12%;
-                background-color: $sliderItemCatpionColor;
+               
+                background-color: $sliderItemCatpionBgColor;
                 position: absolute;
                 left: 90.65%;
                 top: 78.5%;
