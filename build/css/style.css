@@ -482,3 +482,86 @@ body {
         .slider .slider_wrapper .slider_item .slide_btn .left_arrow, .slider .slider_wrapper .slider_item .slide_btn .right_arrow {
           width: 100%;
           height: 100%; }
+
+.content {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .content .sidebar {
+    width: 10%;
+    color: white; }
+  .content .articles {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .content .articles .movie_item {
+      width: 360px;
+      height: auto;
+      margin-bottom: 40px; }
+      .content .articles .movie_item .movie_img {
+        width: 100%;
+        height: 75%;
+        padding: 0.80% 1.06%;
+        border: 1px solid #3f3f3f;
+        margin-bottom: 20px; }
+        .content .articles .movie_item .movie_img img {
+          width: 100%;
+          height: 100%; }
+      .content .articles .movie_item .movie_desc {
+        margin-top: 15px; }
+      .content .articles .movie_item .movie_link {
+        color: #33d7ff;
+        text-decoration: none;
+        font-size: 0.8em;
+        font-family: "BPG Mrgvlovani Caps 2010";
+        width: 100%;
+        display: block;
+        text-align: right;
+        margin-top: 30px; }
+        .content .articles .movie_item .movie_link:hover {
+          text-decoration: underline; }
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0; }
+  .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0; }
+    .content .sidebar {
+      width: 100%; }
+    .content .sidebar ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+    .content .articles {
+      width: 100%;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+    .content .movie_item {
+      -webkit-box-flex: 1;
+          -ms-flex: 1 auto;
+              flex: 1 auto; } }
